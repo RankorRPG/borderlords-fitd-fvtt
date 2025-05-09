@@ -27,7 +27,7 @@ jobs:
 
       - name: Update Download Link
         run: |
-          jq '.download = "https://github.com/GMonlineua/blades-in-the-dark-fvtt/releases/download/v${{ env.RELEASE_VERSION }}/foundry.zip"' system.json > tmp.json && mv tmp.json system.json
+          jq '.download = "https://github.com/RankorRPG/borderlords-fitd-fvtt/releases/download/v${{ env.RELEASE_VERSION }}/foundry.zip"' system.json > tmp.json && mv tmp.json system.json
 
       - name: Update Readme
         run: |
