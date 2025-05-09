@@ -1,90 +1,90 @@
 {
   "TYPES": {
     "Actor": {
-      "scoundrel": "Scoundrel",
-      "crew": "Crew",
-      "faction": "Faction",
-      "npc": "NPC",
-      "clock": "Clock"
+      "scoundrel": "Postać",
+      "crew": "Domena",
+      "faction": "Frakcja",
+      "npc": "BN",
+      "clock": "Zegar"
     },
     "Item": {
-      "playbook": "Playbook",
-      "crewType": "Crew Type",
-      "abilityScoundrel": "Scoundrel's Ability",
-      "abilityCrew": "Crew's Ability",
-      "claim": "Claim",
-      "prisonClaim": "Prison Claim",
-      "cohort": "Cohort",
-      "tool": "Tool",
-      "upgrade": "Upgrade"
+      "playbook": "Klasa",
+      "crewType": "Typ domeny",
+      "abilityScoundrel": "Flagi postaci",
+      "abilityCrew": "Flagi domeny",
+      "claim": "Posiadłości",
+      "prisonClaim": "Prawa",
+      "cohort": "Regiment",
+      "tool": "Przedmioty",
+      "upgrade": "Ulepszenia"
     }
   },
   "BITD": {
-    "General": "General",
-    "Description": "Description",
-    "Notes": "Notes",
-    "Summary": "Summary",
-    "Available": "Available",
-    "Used": "Used",
-    "Uses": "Uses",
+    "General": "Ogólne",
+    "Description": "Opis",
+    "Notes": "Dodatkowe informacje",
+    "Summary": "Podsumowanie",
+    "Available": "Dostępne",
+    "Used": "Użyte",
+    "Uses": "Użycia",
     "Actor": {
-      "HumanName": "Name",
-      "StructureName": "Name",
-      "Alias": "Alias",
+      "HumanName": "Imię",
+      "StructureName": "Nazwa",
+      "Alias": "Tytuł",
       "Aka": "Aka",
-      "Coins": "Coins",
-      "Tier": "Tier"
+      "Coins": "Korony",
+      "Tier": "Status"
     },
     "Item": {
-      "Plural": "Items",
-      "Name": "Name",
-      "Add": "Add",
-      "New": "Item",
-      "Delete": "Delete",
-      "Edit": "Edit",
-      "Show": "Show"
+      "Plural": "Przedmioty",
+      "Name": "Nazwa",
+      "Add": "Dodaj",
+      "New": "Nowy",
+      "Delete": "Usuń",
+      "Edit": "Edytuj",
+      "Show": "Pokaż"
     },
     "Scoundrel": {
-      "Drives": "Drives",
-      "Beliefs": "Beliefs",
-      "Heritage": "Heritage",
-      "Background": "Background",
-      "Vice": "Vice",
-      "Look": "Look",
-      "Stress": "Stress",
+      "Drives": "Przekonania",
+      "Beliefs": "Wiara",
+      "Heritage": "Dziedzictwo",
+      "Background": "Pochodzenie",
+      "Vice": "Nawyki",
+      "Look": "Wygląd",
+      "Stress": "Stres",
       "Traumas": {
         "Trauma": "Trauma",
-        "Choose": "Choose Trauma",
-        "Add": "Add Trauma",
-        "Cold": "Cold",
-        "Haunted": "Haunted",
-        "Obsessed": "Obsessed",
-        "Paranoid": "Paranoid",
-        "Reckless": "Reckless",
-        "Soft": "Soft",
-        "Unstable": "Unstable",
-        "Vicious": "Vicious",
-        "Custom": "Custom"
+        "Choose": "Zaznacz traumę",
+        "Add": "Dodaj traumę",
+        "Cold": "Oschły",
+        "Haunted": "Schizofrenik",
+        "Obsessed": "Maniak",
+        "Paranoid": "Paranoik",
+        "Reckless": "Impulsywny",
+        "Soft": "Wycofany",
+        "Unstable": "Niestabilny",
+        "Vicious": "Mściwy",
+        "Custom": "Własna"
       },
       "Harms": {
-        "Harm": "Harm",
-        "Healing": "Healing",
+        "Harm": "Rana",
+        "Healing": "Leczenie",
         "Effect": {
-          "Light": "Need Help",
+          "Light": "Potrzebujący pomocy",
           "Medium": "-1 D",
-          "Heavy": "Less Effect"
+          "Heavy": "Mniejszy efekt"
         }
       },
-      "Stash": "Stash",
+      "Stash": "Skarbiec",
       "Load": {
-        "Title": "Load",
-        "Light": "Light",
-        "Normal": "Normal",
-        "Heavy": "Heavy",
-        "Encumbered": "Encumbered"
+        "Title": "Obciążenie",
+        "Light": "Lekkie",
+        "Normal": "Normalne",
+        "Heavy": "Ciężkie",
+        "Encumbered": "Przeciążony"
       },
       "Exp": {
-        "XP": "Experience",
+        "XP": "Doświadczenie",
         "HowItWorks": "At the end of each session, for these three items, mark 1 xp (in your playbook or an attribute) or 2 xp if that item occurred multiple times.",
         "DesperateRoll": "Every time you roll a desperate action, mark xp in that action's attribute.",
         "Character": "You expressed your beliefs, drives, heritage, or background.",
