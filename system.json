@@ -144,7 +144,7 @@
       }
     }
   ],
-  "background": "systems/bitd/ui/background.jpg",
+  "background": "systems/borderlords/ui/background.jpg",
   "packFolders": [],
   "socket": true,
   "manifest": "https://raw.githubusercontent.com/RankorRPG/borderlords-fitd-fvtt/main/system.json",
